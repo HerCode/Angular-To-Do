@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="taskslist">
+  <head>
+    <meta charset="utf-8">
+    <title>Peer Angular</title>
+    <link rel="stylesheet" href="styles.css" media="screen">
+    <script src="angular.min.js"></script>
+    <script src ="script.js"></script>
+  </head>
+    <h1>Tasks For The Day</h1>
+    <main="tasks">
+    <div ng-app="tasksapp" ng-controller="taskscontroller" id="tasks">
+        <form ng-submit="add()">
+        <input ng-model="title"><button>Add</button>
+        </form>
+        <ul>
+            <li ng-repeat="t in tasks track by $index">{{ t }} <button ng-click="delete()">x</button></li>
+        </ul>
+    </div>
+  </main>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "angular-to-do",
+  "version": "1.5.7",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HerCode/Angular-To-Do.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HerCode/Angular-To-Do/issues"
+  },
+  "homepage": "https://github.com/HerCode/Angular-To-Do#readme",
+  "dependencies": {
+    "angular": "^1.5.7"
+  }
+}
